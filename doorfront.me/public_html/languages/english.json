@@ -1,0 +1,828 @@
+{
+	"global": {
+		"submit_button"					: "Submit",
+		"delete"						: "Delete",
+		"view"							: "View",
+		"edit"							: "Edit",
+		"enable"						: "Enable",
+		"disable"						: "Disable",
+		"show_more"						: "Show More",
+		"language"						: "Language",
+		"choose_language"				: "Choose Language",
+		"close"							: "Close",
+		"online"						: "Online",
+		"search"						: "Search..",
+		"search_view_all"				: "View all results",
+		"go_back_button"				: "Go Back",
+		"verified"						: "Verified",
+		"yes"							: "Yes",
+		"no"							: "No",
+
+		"message_type": {
+			"error"						: "Error!",
+			"info"						: "Info!",
+			"success"					: "Success!"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "Are you sure you want to delete this ?"
+		},
+
+		"success_message": {
+			"basic"						: "Your requested command was performed successfully!",
+			"account_activated"			: "Your account was activated, now you can login with your details :)"
+		},
+
+		"error_message": {
+			"empty_fields"				: "You must fill all the fields!",
+			"file_not_writeable"		: "File is not writeable <strong>%s</strong>",
+			"directory_not_writeable"	: "Directory is not writable <strong>%s</strong>",
+			"invalid_captcha"			: "The captcha code is not valid!",
+			"invalid_file_type"			: "Invalid file type!",
+			"invalid_image_size"		: "You're uploaded image is exceeding the size limit ( %s )!",
+			"invalid_token"				: "We're sorry but we couldn't perform the action, please try again!",
+			"command_denied"			: "You don't have access to this command!",
+			"page_access_denied"		: "You can't access this page!",
+			"invalid_account"			: "This user does not exist!",
+			"basic"						: "We could not perform your requested command!",
+			"system_issues"				: "There are some system issues at the moment, please contact an admin and tell him about this problem."
+		},
+
+		"menu": {
+			"home"						: "Home",
+			"logout"					: "Logout",
+			"settings"					: "Settings",
+			"admin"						: "Admin Panel",
+			"website"					: "Visit Site",
+			"my_profile"				: "My Profile",
+			"admin_settings"			: "Settings"
+		},
+
+		"email": {
+			"pro_notification_title"	: "%s - Pro Account Status Update",
+			"pro_notification"			: "<p>Hey <strong>%s</strong>!</p> <p>We are emailing you to keep you up to date with the status of your <strong>Pro Account</strong>. You only have <strong>%s days left</strong> until it expires. Make sure you have enough funds in your account so that it will automatically renew.</p> <p>If you want to cancel, don't top up your acount and it will be automatically canceled when the Pro Account period is over.</p><p>All the best to you!</p>"
+		}
+	},
+
+
+	"page": {
+		"info_message": {
+			"invalid_page"				: "The page you're looking for does not exist!"
+		}
+	},
+
+	"profile": {
+		"display": {
+			"edit_profile": "Edit Profile",
+			"companies": "Work",
+			"knowledge": "Knowledge"
+		}
+	},
+
+
+	"profile_settings": {
+		"title"							: "Profile Settings",
+		"menu"							: "Profile Settings",
+		"header"						: "Profile",
+
+		"input": {
+			"name"						: "Name",
+			"about"						: "Description",
+			"location"					: "Location",
+			"template"					: "Template",
+			"avatar"					: "Change avatar",
+			"avatar_help"				: "Only JPG, JPEG, PNG formats allowed!",
+			"avatar_selected"			: "<span class=\"green\"><i class=\"fa fa-check\"></i> avatar selected!</span> <span id=\"avatar-file-remove\" class=\"red tooltipz clickable\" title=\"Remove file\"><i class=\"fa fa-minus-circle\"></i></span>",
+			"occupations"				: "Occupations",
+			"occupations_help"			: "Comma separated values, maximum 3 values",
+			"companies"					: "Companies",
+			"companies_help"			: "Comma separated values, maximum 3 values",
+			"knowledge"					: "Knowledge",
+			"knowledge_help"			: "Comma separated values, maximum 5 values",
+			"main_link_type"			: "Main Button Type",
+			"main_link"					: "Main Link Url",
+			"background_type"			: "Background Type",
+			"gradient"					: "Gradient",
+			"color"						: "Color",
+			"background"				: "Background Image",
+			"disabled"					: "Disabled",
+			"background_value_color"	: "Select Color",
+			"background_value_gradient"	: "Select Gradient",
+			"background_value_background" : "Select Background",
+			"social_buttons_help"		: "You only need to input your ID or Username for these fields. No full URLS!",
+			"social_button_help"		: "Format: %s",
+			"social_button_id_help"		: "ID",
+			"save"						: "Save"
+		},
+
+		"display": {
+			"visit_profile"				: "<i class=\"fa fa-user\"></i> Go to profile",
+			"main"						: "Main",
+			"socials"					: "Socials",
+			"template"					: "Template"
+		},
+
+		"error_message": {
+			"long_about"				: "We are sorry but your description is too big!",
+			"small_avatar"				: "Your avatar is too small, minimum 165x165!",
+			"not_writeable"				: "The <strong>uploads/avatars</strong> and / or <strong>uploads/avatars/thumbs</strong> folders are not writeable! (admin only message)"
+		},
+
+		"success_message": {
+			"profile_updated"			: "Your settings have been updated!"
+		}
+	},
+
+
+	"account_settings": {
+		"title"							: "Account Settings",
+		"menu"							: "Account Settings",
+		"header"						: "Account Settings",
+		"header2"						: "Change Password",
+		"header2_help"					: "If you do not want to change your password, do not fill any of those fields below.",
+		"header3"						: "Delete Account",
+		"header3_help"					: "By deleting the account, all of your stored data will be deleted. This action is irreversible once done.",
+
+		"display": {
+			"last_activity"				: "Last active: "
+		},
+
+		"input": {
+			"current_password"			: "Current Password",
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password",
+			"email"						: "Email",
+			"username"					: "Username"
+		},
+
+		"error_message": {
+			"invalid_current_password"	: "Your current password is not valid!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match",
+			"username_length"			: "Username must be between 3 and 32 characters!",
+			"user_exists"				: "We're sorry, but the <strong>%s</strong> username is already taken!"
+		},
+
+		"success_message": {
+			"account_updated"			: "Your account was updated!"
+		}
+	},
+
+
+	"reset_password": {
+		"title"							: "Reset Password",
+		"header"						: "Reset Password",
+
+		"input": {
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"error_message": {
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match"
+		},
+
+		"success_message": {
+			"password_updated"			: "Your password has been updated!"
+		}
+	},
+
+
+	"login": {
+		"menu"							: "Login",
+		"title"							: "Login",
+		"header"						: "Login",
+
+		"input": {
+			"username" 					: "Username or Email Address",
+			"password"					: "Password",
+			"remember_me"				: "Remember me"
+		},
+
+		"button": {
+			"login"						: "Sign In",
+			"lost_password"				: "Lost Password",
+			"resend_activation"			: "Resend Activation",
+			"facebook"					: "Login with Facebook",
+			"instagram"					: "Login with Instagram"
+		},
+
+		"info_message": {
+			"logged_in"					: "Welcome back, you are now logged in!"
+		},
+
+		"error_message": {
+			"wrong_login_credentials"	: "We could not find any account with these credentials.",
+			"user_not_active"			: "Your account is not confirmed or banned!"
+
+		}
+	},
+
+
+	"lost_password": {
+		"title"							: "Lost Password",
+		"header"						: "Lost Password",
+
+		"input": {
+			"email" 					: "Email"
+		},
+
+		"notice_message": {
+			"success"					: "We sent an email to that accounts address if an account is registered with it!"
+		},
+
+		"email": {
+			"title"						: "Lost Password",
+			"content" 					: "We generated a reset password link for your account, dont access the following url if it wasn't you! %sreset-password/%s/%s"
+		}
+	},
+
+	"resend_activation": {
+		"title"							: "Resend Activation",
+		"header"						: "Resend Activation Email",
+
+		"input": {
+			"email" 					: "Email"
+		},
+
+		"notice_message": {
+			"success"					: "We sent an email to that accounts address if an account is registered with it!"
+		},
+
+		"email": {
+			"title"						: "Activate your account",
+			"content"					: "You need to activate your account by accessing the following link: %sactivate/%s/%s"
+		}
+	},
+
+
+	"register": {
+		"title"							: "Register",
+		"menu"							: "Register",
+		"header"						: "Register",
+		"subheader"						: "Already have an account?",
+
+		"input": {
+			"username" 					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"password"					: "Password",
+			"repeat_password"			: "Repeat Password"
+		},
+
+		"error_message": {
+			"email_is_null"				: "Your facebook account doesn't have an email associated with it, we could not finish the Facebook login process.",
+			"username_length"			: "Username must be between 3 and 32 characters!",
+			"name_length"				: "Name must be between 3 and 32 characters!",
+			"user_exists"				: "We're sorry, but the <strong>%s</strong> username is already taken!",
+			"email_exists"				: "We're sorry, but that email is already used!",
+			"invalid_email"				: "You entered an invalid email!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match",
+			"username_characters"		: "You can only use letters, digits and the '.', '_' characters for your username field"
+		},
+
+		"email": {
+			"title"						: "Welcome to %s",
+			"content"					: "You need to activate your account by accessing the following link: <a href=\"%sactivate/%s/%s\">Activate Account</a>"
+		},
+
+		"email_new_account": {
+			"title"						: "Welcome to %s",
+			"content"					: "We generated a separate login for you with the following details <br /><br /> <strong>Username:</strong> %s <br /> <strong>Password:</strong> %s"
+		},
+
+		"success_message": {
+			"registration"				: "Your account has been created, check your email for the activation link!",
+			"login"						: "Welcome to our platform, we are grateful to have you here!"
+		}
+	},
+
+
+	"dashboard": {
+		"title"								: "Dashboard",
+		"menu"								: "Dashboard",
+
+
+		"display": {
+			"traffic"						: "Traffic Statistics",
+			"profile_hits"					: "Profile Hits",
+			"profile_hits_help"				: "Total profile hits from the last 15 days.",
+			"account_status"				: "Your account",
+			"store"							: "Account Balance of %s total points",
+			"share_url"						: "Your custom url to share",
+			"visit_profile"					: "<i class=\"far fa-user\"></i> Visit Profile",
+			"joined"						: "Joined %s",
+			"pro_account"					: "You are a Pro member, congratulations!",
+			"pro_account_help"				: "You have %s days left of pro membership.",
+			"profile_settings"				: "<i class=\"fa fa-sliders-h\"></i> Edit Profile"
+		},
+
+		"table": {
+			"type"							: "Type",
+			"today"							: "Today",
+			"yesterday"						: "Yesterday",
+			"month"							: "Last 30 Days",
+			"total"							: "Total",
+			"profile"						: "Profile Hits",
+			"main_link"						: "Main Link Hits"
+		},
+
+
+		"error_message": {
+			"title_length"					: "The title must be at least 3 characters!",
+			"invalid_url"					: "The URL you've entered is invalid!"
+		},
+
+		"success_message": {
+			"basic"							: "You just added another link to your collection :)",
+			"edited"						: "New link data was saved!",
+			"deleted"						: "You just deleted your link :("
+		},
+
+		"profile_hits_chart": {
+			"main_link"						: "Main Link Hits",
+			"profile"						: "Profile Hits",
+			"social"						: "Social Buttons Hits"
+		}
+	},
+
+	"pro": {
+		"title"								: "Pro Account",
+		"header"							: "Get your Pro Account 🔥"
+	},
+
+	"store": {
+		"title"								: "Store",
+		"menu"								: "Store / Transactions",
+		"header"							: "Store",
+		"header_transactions"				: "Transactions",
+		"confirm_purchase"					: "Are you sure you want to purchase this package ?",
+		"logged_out_confirm"				: "You first need to be logged in!",
+
+		"display": {
+			"state"							: "<strong>Account Balance:</strong> %s Points.",
+			"add_funds"						: "Add funds through %s",
+			"purchase"						: "Purchase now",
+			"info"							: "1 Point is equal to 1 unit of the website's currency ( %s ).",
+			"go_pro"						: "Go Pro"
+		},
+
+		"info_message": {
+			"stripe_not_available"			: "We are sorry but Stripe payments are disabled at this moment in time..",
+			"paypal_not_available"			: "We are sorry but Paypal payments are disabled at this moment in time..",
+			"canceled"						: "It appears you have canceled your order, we couldn't process your payment.",
+			"already_pro"					: "It appears that your account is already Pro, you can't buy this package again until it expires.",
+			"no_transactions"				: "At the moment there are no transactions to show.."
+		},
+
+		"button": {
+			"pay"							: "Pay"
+		},
+
+		"table": {
+			"type"						: "Type",
+			"email"						: "Email",
+			"date"						: "Date",
+			"name"						: "Full Name",
+			"amount"					: "Amount",
+			"currency"					: "",
+			"nr"						: "#"
+		},
+
+		"paypal": {
+			"header"						: "Pay with PayPal",
+			"amount"						: "Select an amount of points"
+		},
+
+		"stripe": {
+			"header"						: "Pay with Stripe",
+			"amount"						: "Select an amount of points",
+			"description"					: "Points for the account balance."
+		},
+
+
+		"error_message": {
+			"normal"						: "Something happened while we tried to process your payment..",
+			"not_enough_funds"				: "You don't have enough funds! Add more funds to your account and get back :)",
+			"allowed_packages"				: "Please try purchasing a package that is listed below."
+		},
+
+		"success_message": {
+			"paid"							: "You just got new funds into your account!",
+			"purchased"						: "You just purchased that package!"
+		}
+	},
+
+	"index": {
+		"title"								: "Home",
+
+		"display": {
+			"header"						: "Let them know about you.",
+			"subheader"						: "Create your custom page and get started in under 5 minutes!",
+			"feature1"						: "Custom Profiles",
+			"feature2"						: "Mobile Responsive",
+			"feature3"						: "Simple to use",
+			"feature4"						: "Authentic",
+			"feature5"						: "Professional",
+			"feature6"						: "Analytics ready",
+			"feature7"						: "Custom url",
+			"feature8"						: "We care about you",
+			"header2"						: "Start. Building. Now.",
+			"subheader2"					: "Here's what you can get from our packages."
+		},
+
+		"button": {
+			"sign_up"						: "Sign Up for Free 🔥",
+			"dashboard"						: "Go to your Dashboard"
+		}
+
+	},
+
+	"admin_pages_management": {
+		"title"							: "Pages Management",
+		"menu"							: "Pages",
+		"header"						: "Add Page",
+
+		"table": {
+			"title"						: "Name",
+			"url"						: "Url",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Bottom menu",
+			"actions"					: "Actions"
+		},
+
+		"input": {
+			"title"						: "Page Title",
+			"url"						: "URL / Slug",
+			"description"				: "Description",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Footer"
+		}
+	},
+
+	"admin_index": {
+		"title"							: "Admin Dashboard",
+		"menu"							: "Dashboard",
+		"header"						: "Dashboard",
+		"header2"						: "Latest Uploads",
+
+		"display": {
+			"latest_payments"			: "Latest Payments",
+			"accounts"					: "Users",
+			"photos"					: "Photos Uploaded",
+			"latest_users"				: "Latest Users"
+		},
+
+		"table": {
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"type"						: "Type",
+			"reported_id"				: "Reported Id",
+			"date"						: "Date",
+			"actions"					: "Actions",
+			"view_report"				: "View Report"
+		},
+
+		"notice_message": {
+			"no_users"					: "Currently there are no users",
+			"no_photos"					: "Currently there are no photos uploaded"
+		}
+	},
+
+	"admin_payments_list": {
+		"title"							: "Payments List",
+		"menu"							: "Payments",
+
+		"table": {
+			"type"						: "Type",
+			"email"						: "Email",
+			"user"						: "User",
+			"date"						: "Date",
+			"name"						: "Full Name",
+			"amount"					: "Amount",
+			"currency"					: ""
+		},
+
+		"display": {
+			"search_placeholder"		: "Search by username, name or email.."
+		}
+	},
+
+
+	"admin_users_management": {
+		"title"							: "Users Management",
+		"menu"							: "Users",
+
+		"table": {
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"registration_date"			: "Reg. Date",
+			"active"					: "Status",
+			"actions"					: "Actions"
+		},
+
+		"tooltip": {
+			"admin"						: "Admin"
+		},
+
+		"info_message": {
+			"confirm_delete"			: "By deleting this user, everything that is linked to that user will be deleted!"
+		},
+
+		"error_message": {
+			"self_delete"				: "You can't delete yourself!",
+			"self_status"				: "You can't change your own status!"
+		},
+
+		"display": {
+			"search_placeholder" 		: "Search by username, name or email..",
+			"user_active"				: "Active",
+			"user_disabled"				: "Disabled"
+		}
+	},
+
+
+
+	"admin_page_edit": {
+		"title"							: "View Page",
+		"header"						: "View Page",
+
+		"input": {
+			"title"						: "Page Title",
+			"url"						: "URL / Slug",
+			"description"				: "Description",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Footer"
+		},
+
+		"error_message": {
+			"invalid_page"				: "That page wasn't found!"
+		}
+	},
+
+
+	"admin_user_edit": {
+		"title"							: "Edit User",
+		"header"						: "Edit User",
+		"header3"						: "Change Password",
+		"header3_help"					: "Leave it empty if you don't want to change the password!",
+
+		"input": {
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"about"						: "Description",
+			"type"						: "Admin Account",
+			"type_help"					: "Is this an admin account ?",
+			"pro"						: "Pro Account",
+			"status"					: "Account Status",
+			"status_help"				: "Active / Inactive",
+			"new_password"				: "New Password",
+			"repeat_password"			: "Repeat Password",
+			"last_activity"				: "Last Active"
+		},
+
+		"error_message": {
+			"username_length"			: "Username must be between 3 and 32 characters!",
+			"user_exists"				: "We're sorry, but the <strong>%s</strong> username is already taken!",
+			"name_length"				: "Name must be between 3 and 32 characters!",
+			"invalid_account"			: "That account wasn't found!",
+			"email_exists"				: "We're sorry, but that email is already used!",
+			"invalid_email"				: "You entered an invalid email!",
+			"short_password"			: "Your password is too short, you must have at least 6 characters!",
+			"passwords_not_matching"	: "Your entered passwords do not match",
+			"long_about"				: "We are sorry but your description is too big!"
+		}
+	},
+
+	"admin_user_view": {
+		"title"							: "View User",
+		"header"						: "View User",
+		"header_transactions"			: "Transactions",
+
+		"input": {
+			"points"					: "Current Points",
+			"username"					: "Username",
+			"name"						: "Name",
+			"email"						: "Email",
+			"status"					: "Account Status",
+			"status_active"				: "Active",
+			"status_disabled"			: "Disabled",
+			"no_ads"					: "No ads",
+			"last_activity"				: "Last Active",
+			"pro"						: "Pro Account",
+			"pro_due_date"				: "Pro Due Date",
+			"pro_trial_done"			: "Pro Trial Done"
+		},
+
+		"table": {
+			"username"					: "Username",
+			"date"						: "Date",
+			"expiration_date"			: "Expiration Date",
+			"no_expiration_date"		: "N/A",
+			"type"						: "Type",
+			"email"						: "Email",
+			"name"						: "Full Name",
+			"amount"					: "Amount",
+			"currency"					: "",
+			"nr"						: "#"
+		},
+
+		"info_message": {
+			"no_transactions"			: "At the moment there are no transactions to show..",
+			"no_favorites"				: "No favorites for this user.."
+		}
+
+	},
+
+	"admin_website_settings": {
+		"title"							: "Website Settings",
+		"menu"							: "Website Settings",
+		"header"						: "Website Settings",
+
+		"input": {
+			"profile_hit_timing"		: "Profile Hit Timing",
+			"profile_hit_timing_help"	: "After how many hours should a visit to a profile, from the same ip count again.",
+			"profile_settings_autosave"	: "Profile Settings Autosave",
+			"title"						: "Website title",
+			"default_language"			: "Default Language",
+			"default_language_help"		: "To add more languages, please consult the documentation.",
+			"logo"						: "Logo",
+			"logo_help"					: "jpg, jpeg and png accepted. Recommended size: Max height of 40px and transparrent.",
+			"logo_remove"				: "Remove Logo",
+			"meta_description"			: "Meta Description",
+			"keywords"					: "Keywords",
+			"analytics_code"			: "Analytics Tracking Code",
+			"analytics_code_help"		: "Example: UA-22222222-33 ( Leave empty if you dont have Googele Analytics )",
+			"avatar_max_size"			: "Avatar Maximum Upload Size (bytes)",
+			"contact_email"				: "Contact Email",
+			"contact_email_help"		: "The email that the users get the email from / the 'reply-to' email ( registration / email activation / lost password )",
+			"email_confirmation"		: "Require Registration Confirmation email",
+			"time_zone"					: "Time Zone",
+			"top_ads"					: "Top Ads Code",
+			"bottom_ads"				: "Bottom Ads Code",
+			"side_ads"					: "Profile Ads Code",
+			"recaptcha"					: "Enable ReCaptcha",
+			"public_key"				: "Public Key",
+			"private_key"				: "Private Key",
+			"social_help"				: "Display your website's socials in the footer of the website for users to reach you.",
+			"facebook"					: "Facebook",
+			"twitter"					: "Twitter",
+			"instagram"					: "Instagram",
+			"youtube"					: "YouTube",
+			"smtp_help"					: "If there are no values entered then the system will try to use the default mail function.",
+			"smtp_host"					: "Host",
+			"smtp_port"					: "Port",
+			"smtp_user"					: "User",
+			"smtp_pass"					: "Pass",
+			"smtp_auth"					: "Authentication",
+			"smtp_encryption"			: "Encryption",
+			"smtp_from"					: "From (email)",
+			"smtp_from_help"			: "The email that the users get the email from / the 'reply-to' email ( registration / email activation / lost password )",
+			"facebook_login"			: "Enable Facebook Registration / Login",
+			"facebook_app_id"			: "Facebook App Id",
+			"facebook_app_secret"		: "Facebook App Secret",
+			"instagram_login"			: "Enable Instagram Registration / Login",
+			"instagram_client_id"		: "Instagram Client Id",
+			"instagram_client_secret"	: "Instagram Client Secret",
+			"store_paypal_client_id"	: "Paypal Client ID",
+			"store_paypal_secret"		: "Paypal Secret",
+			"store_paypal_mode"			: "Paypal Mode",
+			"store_paypal_mode_help"	: "live - production, sandbox - testing purposes",
+			"store_stripe_publishable_key"	: "Stripe Publishable Key",
+			"store_stripe_secret_key"		: "Stripe Secret Key",
+			"store_currency_help"		: "Make sure to add a valid currency code for both <a href='https://stripe.com/docs/currencies'>Stripe</a> and <a href='https://developer.paypal.com/docs/classic/api/currency_codes/'>PayPal</a> depending on your needs.",
+			"store_currency"			: "Currency",
+			"store_pro_price_year"		: "Pro Account Price per Year",
+			"store_pro_price_month"		: "Pro Account Price per Month",
+			"email_pro_due_date"		: "Pro Account Due Date Email",
+			"email_pro_due_date_help"	: "Send an notification email to the user when their Pro account is about to expire. Insert the number of days before their expiration when the email should be sent."
+		},
+
+		"tab": {
+			"main"						: "Main",
+			"store"						: "Store",
+			"ads"						: "Ads",
+			"api"						: "API's",
+			"social"					: "Social",
+			"email"						: "Email"
+		}
+	},
+
+
+	"admin_extra_settings": {
+		"title"							: "Extra Settings",
+		"menu"							: "Extra Settings",
+		"header"						: "Extra Settings",
+		"edit_modal_header"				: "Edit",
+
+
+		"table": {
+			"content"					: "Name",
+			"icon"						: "Icon",
+			"actions"					: "Actions"
+		},
+
+		"input": {
+			"content"					: "Name",
+			"icon"						: "Icon",
+			"icon_help"					: "FontAwesome classes, ex: fa fa-user",
+			"description"				: "Description",
+			"position"					: "Position",
+			"position_top"				: "Top menu",
+			"position_bottom"			: "Footer"
+		},
+
+		"display": {
+			"available_buttons"			: "Available Social Buttons",
+			"available_buttons_help"	: "Here you can control ( add / remove / edit ) social buttons that are available for users. This field needs to be verified JSON. Please do not edit if you don't know what you're doing.",
+			"available_themes"			: "Available Background Themes",
+			"available_themes_help"		: "Here you can control ( add / remove / edit ) predefined gradient backgrounds that are available for users. This field needs to be verified JSON. Please do not edit if you don't know what you're doing.",
+			"main_link_types_help"		: "<strong>Main Link Types</strong> are the buttons that users are allowed to set as their main button on the profile. Here you can add more, edit and delete those."
+		},
+
+		"error_message": {
+			"invalid_json"				: "Invalid json, please take a closer look or roll back to the default values."
+		}
+	},
+
+
+	"admin_website_statistics": {
+		"title"							: "Website Statistics",
+		"menu"							: "Statistics"
+	},
+
+
+	"pricing_table": {
+		"display": {
+			"register"					: "Register",
+			"dashboard"					: "Go to Dashboard",
+			"purchase"					: "Purchase",
+			"free_account"				: "Basic Account",
+			"free_account_pricing"		: "Free",
+			"pro_account"				: "Pro Account"
+		},
+
+		"pro": {
+			"zero"						: "Additions to the Free package",
+			"one"						: "Priority Support",
+			"two"						: "Verified Badge",
+			"three"						: "Ads Removed Fully",
+			"four"						: "Trademarks removed"
+		},
+
+		"free": {
+			"one"						: "Free custom url",
+			"two"						: "Analytics with Charts",
+			"three"						: "Custom buttons",
+			"four"						: "Custom socials",
+			"five"						: "and many more.."
+		},
+
+		"prices": {
+			"monthly"					: "%s - Monthy",
+			"yearly"					: "%s - Yearly"
+		}
+	},
+
+	"not_found": {
+		"title"							: "Not found",
+		"content"						: "We're sorry but we couldn't find the page you searched for...",
+
+		"error_message": {
+			"invalid_link" 				: "You just tried to enter a broken link.. "
+		}
+	},
+
+	"datatable": {
+		"sEmptyTable"					: "No data available in table",
+		"sInfo"							: "Showing _START_ to _END_ of _TOTAL_ entries",
+		"sInfoEmpty"					: "Showing 0 to 0 of 0 entries",
+		"sInfoFiltered"					: "(filtered from _MAX_ total entries)",
+		"sInfoPostFix"					: "",
+		"sInfoThousands"				: ",",
+		"sLengthMenu"					: "_MENU_",
+		"sLoadingRecords"				: "Loading...",
+		"sProcessing"					: "<div class=\"spinner-border\" role=\"status\"><span class=\"sr-only\">Loading...</span></div>",
+		"searchPlaceholder"				: "Search..",
+		"search"						: "",
+		"sZeroRecords"					: "No matching records found",
+		"oPaginate": {
+			"sFirst"					: "First",
+			"sLast"						: "Last",
+			"sNext"						: "Next",
+			"sPrevious"					: "Previous"
+		},
+		"oAria": {
+			"sSortAscending"			: ": activate to sort column ascending",
+			"sSortDescending"			: ": activate to sort column descending"
+		}
+	}
+}
